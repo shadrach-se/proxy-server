@@ -1,7 +1,7 @@
-const { parsed: env } = require("dotenv").config();
+require("dotenv").config();
 const cors_proxy = require("cors-anywhere");
 
-const port = env.PORT || 8080;
+const port = process.env.PORT || 8080;
 cors_proxy
   .createServer({
     originWhitelist: ["http://127.0.0.1:5500", "*"], // Allow all origins
