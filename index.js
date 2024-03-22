@@ -9,5 +9,5 @@ cors_proxy
     removeHeaders: ["cookie", "cookie2"],
   })
   .listen(port, function () {
-    console.log(`Server is listening on port ${env.PORT}... `);
+    console.log(`Server is listening on port ${port}... `);
   });
