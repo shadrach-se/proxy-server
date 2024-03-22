@@ -1,0 +1,30 @@
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore logs
+*.log
+
+# Ignore dependencies
+node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore sensitive or private files
+config.js
+secrets.json
+
+# Ignore generated documentation
+docs/
+
+# Ignore temporary files
+*.tmp
+
+# Ignore compiled binaries
+*.exe
+*.dll
